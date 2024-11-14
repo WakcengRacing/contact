@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="./profile.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h2>User Profile</h2>
+        
+        <!-- Profil Gambar Pengguna -->
+        <div class="profile-image">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="User Profile Picture" />
+        </div>
+        
+        <!-- Informasi Pengguna -->
+        <div class="profile-info">
+            <p><strong>Nama:</strong> John Smith</p>
+            <p><strong>Email:</strong> john.smith@example.com</p>
+            <p><strong>Usia:</strong> 29</p>
+            <p><strong>Alamat:</strong> 123 Main St, Anytown, USA</p>
+            <p><strong>Telepon:</strong> +1 555-1234</p>
+        </div>
+        
+        <!-- Tombol Aksi -->
+        <div class="profile-actions">
+            <!-- Tombol Ganti Password -->
+            <button onclick="window.location.href='change-password.html'" class="action-btn change-password-btn">
+                Ganti Password
+            </button>
+        
+            <!-- Tombol Logout -->
+            <button onclick="window.location.href='logout.html'" class="action-btn logout-btn">
+                Logout
+            </button>
+        
+            <!-- Tombol Kembali ke Halaman Utama -->
+            <a href="index.html" class="back-btn">Back to Home</a>
+        </div>
+    </div>
+
+    <script src="./profile.js"></script>
+</body>
+</html>
